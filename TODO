@@ -1,0 +1,43 @@
+TODO
+
+code v1: 
+* standard string handling (sds?)
+* consolidate string literals
+* testing framework(s)
+  * unit tests
+  * tests in terms of mud experience (integration?)
+* break up monolith: 
+  * individual connections into threads
+  * centralized state?
+* web server front end (vs. text front end)
+
+* make SDS updates automatic (currently, it's just code copied over), some kidn fo dependency management? 
+
+game v1: 
+* mort level cap to 100
+* world
+  * no stock zones
+* start zone
+* rework classes
+  * class list: 
+    * warrior
+    * priest
+    * mage
+    * rogue
+    * necromancer
+    * druid
+  * multi-class??? - kind of like some aspects of this, but most of focus should be on primary class
+* combat
+  * clear tanking roll
+  * exciting healing as main goal
+  * healers should feal nerfed solo vs. mobs, so should tanks
+* skills
+  * skills have crafting and gathering abilties
+  * can pick 3, choice btewen doubling up on one (for greater bonuses/abilities), or taking three different (for more breadth of abilities)
+  * skill list: 
+    * 
+
+
+tasks: 
+* command inventory
+* 

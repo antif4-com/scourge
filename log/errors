@@ -1,0 +1,16 @@
+Apr 10 22:19:35 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Apr 11 09:31:20 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Apr 11 14:31:09 2020 :: SYSERR: Missed 891 seconds worth of pulses.
+Apr 11 15:08:15 2020 :: SYSERR: Missed 979 seconds worth of pulses.
+Apr 11 16:37:04 2020 :: SYSERR: Missed 1822 seconds worth of pulses.
+Apr 11 17:12:08 2020 :: SYSERR: Missed 275 seconds worth of pulses.
+Apr 11 17:33:02 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Apr 11 23:55:08 2020 :: SYSERR: Missed 5806 seconds worth of pulses.
+Apr 12 01:40:26 2020 :: SYSERR: Missed 3087 seconds worth of pulses.
+Apr 12 06:52:56 2020 :: SYSERR: Missed 14366 seconds worth of pulses.
+Apr 12 09:33:09 2020 :: SYSERR: Missed 9606 seconds worth of pulses.
+Apr 12 09:59:45 2020 :: SYSERR: Missed 392 seconds worth of pulses.
+Apr 13 14:32:36 2020 :: SYSERR: Missed 14380 seconds worth of pulses.
+Apr 13 19:11:31 2020 :: SYSERR: Missed 16674 seconds worth of pulses.
+Apr 13 20:08:00 2020 :: SYSERR: Missed 2041 seconds worth of pulses.
+Apr 13 20:12:25 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...

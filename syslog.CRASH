@@ -1,0 +1,30 @@
+Apr 13 21:42:07 2020 :: Resetting #318: Dock Area (rooms 31800-31899).
+Apr 13 21:42:07 2020 :: Resetting #319: Yllythad Sea (rooms 31900-31999).
+Apr 13 21:42:07 2020 :: Resetting #320: Yllythad Sea II (rooms 32000-32099).
+Apr 13 21:42:07 2020 :: Resetting #321: Yllythad Sea III (rooms 32100-32199).
+Apr 13 21:42:07 2020 :: Resetting #322: McGintey Bay (rooms 32200-32299).
+Apr 13 21:42:07 2020 :: Resetting #323: Caverns of the Pale Man (rooms 32300-32399).
+Apr 13 21:42:07 2020 :: Resetting #324: Army Encampment (rooms 32400-32499).
+Apr 13 21:42:07 2020 :: Resetting #325: Revelry (rooms 32500-32599).
+Apr 13 21:42:07 2020 :: Resetting #326: Army Perimeter (rooms 32600-32699).
+Apr 13 21:42:07 2020 :: Resetting #343: God Complex  (rooms 34300-34399).
+Apr 13 21:42:07 2020 :: Resetting #345: Asylum for the Insane (rooms 34500-34599).
+Apr 13 21:42:07 2020 :: Resetting #346: God Hall Ext 346 for God Hall Cmplx (rooms 34600-34699).
+Apr 13 21:42:07 2020 :: Resetting #555: Ultima (rooms 55500-55599).
+Apr 13 21:42:07 2020 :: Resetting #556: Ultima II (rooms 55600-55699).
+Apr 13 21:42:07 2020 :: Resetting #653: Apartment (rooms 65300-65399).
+Apr 13 21:42:07 2020 :: Resetting #654: Subdivision (rooms 65400-65499).
+Apr 13 21:42:07 2020 :: Boot db -- DONE.
+Apr 13 21:42:07 2020 :: Signal trapping.
+Apr 13 21:42:07 2020 :: Entering game loop.
+Apr 13 21:42:07 2020 :: No connections.  Going to sleep.
+Apr 13 21:42:10 2020 :: New connection.  Waking up.
+Apr 13 21:42:14 2020 :: Klank has connected.
+Apr 13 21:42:18 2020 :: Klank un-renting and entering game.
+Apr 13 21:42:18 2020 :: Klank (level 34) has 1 object (max 30).
+Apr 13 21:45:03 2020 :: Klank has quit the game.
+Apr 13 21:45:05 2020 :: Losing player: Klank.
+Apr 13 21:45:05 2020 :: No connections.  Going to sleep.
+Apr 13 21:45:12 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.

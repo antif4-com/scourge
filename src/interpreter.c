@@ -1321,6 +1321,8 @@ void nanny(struct descriptor_data *d, char *arg)
   int load_result;	/* Overloaded variable */
   int player_i;
 
+  /* ECNOTE: should there be a generalized single menu system? */ 
+
   /* OasisOLC states */
   struct {
     int state;
@@ -1357,7 +1359,10 @@ void nanny(struct descriptor_data *d, char *arg)
     write_to_output(d, "Collecting Protocol Information... Please Wait.\r\n"); 
     return;
   case CON_GET_NAME:		/* wait for input of name */
-    if (d->character == NULL) {
+    
+    /* initalize charater member on desc if it hasn't already been */ 
+    if (d->character == NULL) 
+    {
       CREATE(d->character, struct char_data, 1);
       clear_char(d->character);
       CREATE(d->character->player_specials, struct player_special_data, 1);
@@ -1367,9 +1372,14 @@ void nanny(struct descriptor_data *d, char *arg)
       GET_HOST(d->character) = strdup(d->host);
       d->character->desc = d;
     }
+
+
     if (!*arg)
+    {
       STATE(d) = CON_CLOSE;
-    else {
+    }
+    else 
+    {
       char buf[MAX_INPUT_LENGTH], tmp_name[MAX_INPUT_LENGTH];
 
       if ((_parse_name(arg, tmp_name)) || strlen(tmp_name) < 2 ||

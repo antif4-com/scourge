@@ -10,6 +10,7 @@
 
 #include "conf.h"
 #include "sysdep.h"
+#include "scourge.h"
 
 /* Begin conf.h dependent includes */
 
@@ -1807,17 +1808,21 @@ int write_to_descriptor(socket_t desc, const char *txt)
   ssize_t bytes_written;
   size_t total = strlen(txt), write_total = 0;
 
-  while (total > 0) {
+  while (total > 0) 
+  {
     bytes_written = perform_socket_write(desc, txt, total);
 
-    if (bytes_written < 0) {
+    if (bytes_written < 0) 
+    {
       /* Fatal error.  Disconnect the player. */
       perror("SYSERR: Write to socket");
       return (-1);
-    } else if (bytes_written == 0) {
+    } else if (bytes_written == 0) 
+    {
       /* Temporary failure -- socket buffer full. */
       return (write_total);
-    } else {
+    } else 
+    {
       txt += bytes_written;
       total -= bytes_written;
       write_total += bytes_written;
@@ -1902,136 +1907,164 @@ static ssize_t perform_socket_read(socket_t desc, char *read_point, size_t space
  * need 256 characters on a line?) -gg 1/21/2000 */
 static int process_input(struct descriptor_data *t)
 {
+  INIT_RETURN; 
+
   int buf_length, failed_subst;
   ssize_t bytes_read;
   size_t space_left;
-  char *ptr, *read_point, *write_point, *nl_pos = NULL;
+  char *ptr, *inbuf_read_point, *write_point, *nl_pos = NULL;
+
   char tmp[MAX_INPUT_LENGTH];
   static char read_buf[MAX_PROTOCOL_BUFFER] = { '\0' }; /* KaVir's plugin */
   
   /* first, find the point where we left off reading data */
   buf_length = strlen(t->inbuf);
-  read_point = t->inbuf + buf_length;
+  inbuf_read_point = t->inbuf + buf_length;
   space_left = MAX_RAW_INPUT_LENGTH - buf_length - 1;
 
-  do {
-    if (space_left <= 0) {
-      log("WARNING: process_input: about to close connection: input overflow");
-      return (-1);
-    }
-
+  /* this loop waits to recieve a new line before continuing, at the same time
+     it strips out protocol chatter so it's only player communication */ 
+  while(nl_pos == NULL) 
+  {
+    /* check for overrun of input buffer */ 
+    CPEx(space_left, "WARNING: process_input: about to close connection: input overflow");
+    
     /* Read # of "bytes_read" from socket, and if we have something, mark the sizeof data
      * in the read_buf array as NULL */
-    if ((bytes_read = perform_socket_read(t->descriptor, read_buf, space_left)) > 0)
-      read_buf[bytes_read] = '\0';
+    bytes_read = perform_socket_read(t->descriptor, read_buf, space_left);
+    CP(bytes_read); /* 0 is fine, just do nothing, we're waiting for input */ 
 
-    /* Since we have recieved atleast 1 byte of data from the socket, lets run it through
-     * ProtocolInput() and rip out anything that is Out Of Band */ 
-    if ( bytes_read > 0 )
-      bytes_read = ProtocolInput( t, read_buf, bytes_read, t->inbuf );
+    /* make sure it is null terminated */ 
+    read_buf[bytes_read] = '\0';
 
-    if (bytes_read < 0)	/* Error, disconnect them. */
-      return (-1);
-    else if (bytes_read == 0)	/* Just blocking, no problems. */
-      return (0);
-
-    /* at this point, we know we got some data from the read */
-    *(read_point + bytes_read) = '\0';	/* terminate the string */
+    /* run it through ProtocolInput() and rip out anything that is Out Of Band */ 
+    bytes_read = ProtocolInput( t, read_buf, bytes_read, t->inbuf );
+    
+    *(inbuf_read_point + bytes_read) = '\0';	/* terminate the string */
 
     /* search for a newline in the data we just read */
-    for (ptr = read_point; *ptr && !nl_pos; ptr++)
+    for (ptr = inbuf_read_point; *ptr && !nl_pos; ptr++)
+    {
       if (ISNEWL(*ptr))
+      {
 	      nl_pos = ptr;
+      }
+    }
 
-    read_point += bytes_read;
+    inbuf_read_point += bytes_read;
     space_left -= bytes_read;
-
-/* on some systems such as AIX, POSIX-standard nonblocking I/O is broken,
- * causing the MUD to hang when it encounters input not terminated by a
- * newline.  This was causing hangs at the Password: prompt, for example.
- * I attempt to compensate by always returning after the _first_ read, instead
- * of looping forever until a read returns -1.  This simulates non-blocking
- * I/O because the result is we never call read unless we know from select()
- * that data is ready (process_input is only called if select indicates that
- * this descriptor is in the read set).  JE 2/23/95. */
-#if !defined(POSIX_NONBLOCK_BROKEN)
-  } while (nl_pos == NULL);
-#else
-  } while (0);
-
-  if (nl_pos == NULL)
-    return (0);
-#endif /* POSIX_NONBLOCK_BROKEN */
+  } 
 
   /* okay, at this point we have at least one newline in the string; now we
    * can copy the formatted data to a new array for further processing. */
 
-  read_point = t->inbuf;
+  inbuf_read_point = t->inbuf;
 
-  while (nl_pos != NULL) {
+  while (nl_pos != NULL) 
+  {
     write_point = tmp;
     space_left = MAX_INPUT_LENGTH - 1;
 
     /* The '> 1' reserves room for a '$ => $$' expansion. */
-    for (ptr = read_point; (space_left > 1) && (ptr < nl_pos); ptr++) {
-      if (*ptr == '\b' || *ptr == 127) { /* handle backspacing or delete key */
-	if (write_point > tmp) {
-	  if (*(--write_point) == '$') {
-	    write_point--;
-	    space_left += 2;
-	  } else
-	    space_left++;
-	}
-      } else if (isascii(*ptr) && isprint(*ptr)) {
-	if ((*(write_point++) = *ptr) == '$') {		/* copy one character */
-	  *(write_point++) = '$';	/* if it's a $, double it */
-	  space_left -= 2;
-	} else
-	  space_left--;
-      }
+    for (ptr = inbuf_read_point; (space_left > 1) && (ptr < nl_pos); ptr++) 
+    {
+      if (*ptr == '\b' || *ptr == 127)  /* handle backspacing or delete key */
+      {
+        if (write_point > tmp) 
+        {
+          if (*(--write_point) == '$') 
+          {
+            write_point--;
+            space_left += 2;
+          } else
+          {
+            space_left++;
+          }
+        }
+      } else if (isascii(*ptr) && isprint(*ptr)) 
+      {
+        if ((*(write_point++) = *ptr) == '$') {		/* copy one character */
+          *(write_point++) = '$';	/* if it's a $, double it */
+          space_left -= 2;
+        } else
+        {
+          space_left--;
+        }
+       }
     }
 
     *write_point = '\0';
 
-    if ((space_left <= 0) && (ptr < nl_pos)) {
-      char buffer[MAX_INPUT_LENGTH + 64];
+    /* are we out of space? */ 
+    if ((space_left <= 0) && (ptr < nl_pos)) 
+    {
+      sds buf; 
+      buf = sdscatprintf(sdsempty(), "Line too long. Truncated to: \r\n%s\r\n", tmp); 
+      
+      /* ECNOTE: need to check write_to_desciptor() and how it is called, it can return less 
+         than the full length if it is only able to write a partial amount, however, none of 
+         the code that calls write_to_descriptor() actually checks this... strange. */  
+      if (write_to_descriptor(t->descriptor, buf) < 0)
+      {
+        sdsfree(buf); /* don't like listing this twice */ 
+	      return (-1);
+      }
 
-      snprintf(buffer, sizeof(buffer), "Line too long.  Truncated to:\r\n%s\r\n", tmp);
-      if (write_to_descriptor(t->descriptor, buffer) < 0)
-	return (-1);
+      sdsfree(buf);
     }
+
     if (t->snoop_by)
+    {
       write_to_output(t->snoop_by, "%% %s\r\n", tmp);
+    }
+
     failed_subst = 0;
 
     if (*tmp == '!' && !(*(tmp + 1)))	/* Redo last command. */
+    {
       strcpy(tmp, t->last_input);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
-    else if (*tmp == '!' && *(tmp + 1)) {
+    }
+    else if (*tmp == '!' && *(tmp + 1)) 
+    {  
       char *commandln = (tmp + 1);
-      int starting_pos = t->history_pos,
-	  cnt = (t->history_pos == 0 ? HISTORY_SIZE - 1 : t->history_pos - 1);
+      int starting_pos = t->history_pos; 
+	    int cnt = (t->history_pos == 0 ? HISTORY_SIZE - 1 : t->history_pos - 1);
 
       skip_spaces(&commandln);
-      for (; cnt != starting_pos; cnt--) {
-	if (t->history[cnt] && is_abbrev(commandln, t->history[cnt])) {
-	  strcpy(tmp, t->history[cnt]);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
-	  strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
+      for (; cnt != starting_pos; cnt--) 
+      {
+	      if (t->history[cnt] && is_abbrev(commandln, t->history[cnt])) 
+        {
+          strcpy(tmp, t->history[cnt]);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
+          strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
           write_to_output(t, "%s\r\n", tmp);
-	  break;
-	}
+          break;
+        }
+
         if (cnt == 0)	/* At top, loop to bottom. */
-	  cnt = HISTORY_SIZE;
+      	  cnt = HISTORY_SIZE;
       }
-    } else if (*tmp == '^') {
+    } else if (*tmp == '^') 
+    {
       if (!(failed_subst = perform_subst(t, t->last_input, tmp)))
-	strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
-    } else {
+      {
+	      strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
+      }
+    } else 
+    {
       strcpy(t->last_input, tmp);	/* strcpy: OK (by mutual MAX_INPUT_LENGTH) */
+      
       if (t->history[t->history_pos])
-	free(t->history[t->history_pos]);	/* Clear the old line. */
+	    {
+        free(t->history[t->history_pos]);	/* Clear the old line. */
+      }
+      
       t->history[t->history_pos] = strdup(tmp);	/* Save the new. */
+      
       if (++t->history_pos >= HISTORY_SIZE)	/* Wrap to top. */
-	t->history_pos = 0;
+      {
+	      t->history_pos = 0;
+      }
     }
 
    /* The '--' command flushes the queue. */
@@ -2050,7 +2083,7 @@ static int process_input(struct descriptor_data *t)
       nl_pos++;
 
     /* see if there's another newline in the input buffer */
-    read_point = ptr = nl_pos;
+    inbuf_read_point = ptr = nl_pos;
     for (nl_pos = NULL; *ptr && !nl_pos; ptr++)
       if (ISNEWL(*ptr))
 	nl_pos = ptr;
@@ -2058,11 +2091,11 @@ static int process_input(struct descriptor_data *t)
 
   /* now move the rest of the buffer up to the beginning for the next pass */
   write_point = t->inbuf;
-  while (*read_point)
-    *(write_point++) = *(read_point++);
+  while (*inbuf_read_point)
+    *(write_point++) = *(inbuf_read_point++);
   *write_point = '\0';
 
-  return (1);
+  STANDARD_RETURN; 
 }
 
 /* Perform substitution for the '^..^' csh-esque syntax orig is the orig string,

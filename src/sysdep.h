@@ -23,20 +23,6 @@
  * does not support encryption to one that does). */
 /* #define NOCRYPT */
 
-/* If you are porting tbaMUD to a new (untested) platform and you find that 
- * POSIX-standard non-blocking I/O does *not* work, you can define the constant
- * below to work around the problem.  Not having non-blocking I/O can cause the
- * MUD to freeze if someone types part of a command while the MUD waits for the
- * remainder of the command.
- *
- * NOTE: **DO** **NOT** use this constant unless you are SURE you understand
- * exactly what non-blocking I/O is, and you are SURE that your operating system
- * does NOT have it!  (The only UNIX system I've ever seen that has broken POSIX
- * non-blocking I/O is AIX 3.2.)  If your MUD is freezing but you're not sure 
- * why, do NOT use this constant.  Use this constant ONLY if you're sure that 
- * your MUD is freezing because of a non-blocking I/O problem. */
-/* #define POSIX_NONBLOCK_BROKEN */
-
 /* The code prototypes library functions to avoid compiler warnings. (Operating
  * system header files *should* do this, but sometimes don't.) However, Circle's
  * prototypes cause the compilation to fail under some combinations of operating
@@ -126,10 +112,6 @@ extern void abort (), exit ();
 
 #if !defined (POSIX) && defined (_AIX) && defined (_POSIX_SOURCE)
 #define POSIX
-#endif
-
-#if defined(_AIX)
-#define POSIX_NONBLOCK_BROKEN
 #endif
 
 /* Header files common to all source files */

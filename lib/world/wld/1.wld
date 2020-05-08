@@ -1,0 +1,24 @@
+#100
+Corner of 30th and 169th Ave~
+30th St. runs north and south while 169th runs only east.
+~
+1 0 0 0 0 1
+D1
+3004 169th Ave
+~
+~
+0 0 101
+S
+#101
+3004 169th Ave~
+You are in an unfinished room.
+3004, a split level mid 1970s rambler sits 20 feet off the road. 
+~
+1 0 0 0 0 1
+D3
+Corner of 30th and 169th. 
+~
+~
+0 0 100
+S
+$~

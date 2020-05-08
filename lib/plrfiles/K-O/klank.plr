@@ -6,18 +6,18 @@ Clas: 1
 Levl: 34
 Id  : 1
 Brth: 1586582844
-Plyd: 293
-Last: 1587328567
-Lmot: 1586582910
-Lnew: 1586582916
-Host: localhost
+Plyd: 590
+Last: 1587962203
+Lmot: 1587518312
+Lnew: 1587518314
+Host: klank.hsd1.wa.comcast.net
 Hite: 163
 Wate: 129
 Act : 0 0 0 0
 Aff : 0 0 0 0
-Pref: efghnoqrvABCDE b 0 0
-Room: 4
-Hit : 500/500
+Pref: efghnoqrvABCDEF b 0 0
+Room: 100
+Hit : 550/500
 Mana: 100/100
 Move: 82/82
 Str : 25/100

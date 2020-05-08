@@ -1,237 +1,269 @@
-autorun starting game Sun Apr 19 13:35:16 PDT 2020
+autorun starting game Sun Apr 26 21:35:18 PDT 2020
 running bin/circle -q 4000
 No etc/config file, using defaults: No such file or directory
-Apr 19 13:35:16 2020 :: Loading configuration.
-Apr 19 13:35:16 2020 :: tbaMUD 2020
-Apr 19 13:35:16 2020 :: Using lib as data directory.
-Apr 19 13:35:16 2020 :: Running game on port 4000.
-Apr 19 13:35:16 2020 :: Finding player limit.
-Apr 19 13:35:16 2020 ::    Setting player limit to 300 using rlimit.
-Apr 19 13:35:16 2020 :: Opening mother connection.
-Apr 19 13:35:16 2020 :: Binding to all IP interfaces on this host.
-Apr 19 13:35:16 2020 :: Boot db -- BEGIN.
-Apr 19 13:35:16 2020 :: Resetting the game time:
-Apr 19 13:35:16 2020 ::    Current Gametime: 5H 27D 13M 874Y.
-Apr 19 13:35:16 2020 :: Initialize Global Lists
-Apr 19 13:35:16 2020 :: Initializing Events
-Apr 19 13:35:16 2020 :: Reading news, credits, help, ihelp, bground, info & motds.
-Apr 19 13:35:16 2020 :: Loading spell definitions.
-Apr 19 13:35:16 2020 :: Loading zone table.
-Apr 19 13:35:16 2020 ::    1 zones, 72 bytes.
-Apr 19 13:35:16 2020 :: Loading triggers and generating index.
-Apr 19 13:35:16 2020 :: Loading rooms.
-Apr 19 13:35:16 2020 ::    41 rooms, 7544 bytes.
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #1200 asked for but non-existant! (room:0)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #199 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #189 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #170 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
-Apr 19 13:35:16 2020 :: Renumbering rooms.
-Apr 19 13:35:16 2020 :: Checking start rooms.
-Apr 19 13:35:16 2020 :: Loading mobs and generating index.
-Apr 19 13:35:16 2020 ::    38 mobs, 1216 bytes in index, 21888 bytes in prototypes.
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #196 asked for but non-existant! (mob: Socrates - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #194 asked for but non-existant! (mob: Socrates - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #183 asked for but non-existant! (mob: Socrates - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #198 asked for but non-existant! (mob: Plato - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #184 asked for but non-existant! (mob: Plato - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #197 asked for but non-existant! (mob: Aristotle - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #185 asked for but non-existant! (mob: Aristotle - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #186 asked for but non-existant! (mob: Confucius - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #192 asked for but non-existant! (mob: the variable questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #191 asked for but non-existant! (mob: the variable questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #190 asked for but non-existant! (mob: the variable questmaster - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #188 asked for but non-existant! (mob: the protector of the magic eight ball - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #187 asked for but non-existant! (mob: James Stockdale - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #182 asked for but non-existant! (mob: Carl Von Clausewitz - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #181 asked for but non-existant! (mob: Epictetus - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #174 asked for but non-existant! (mob: the spy for the underground - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #173 asked for but non-existant! (mob: the Commissar - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #178 asked for but non-existant! (mob: Homer Simpson - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: dg_read_trigger: Trigger vnum #175 asked for but non-existant! (mob: Chuck Norris - 65535)
-Apr 19 13:35:16 2020 :: Loading objs and generating index.
-Apr 19 13:35:16 2020 ::    88 objs, 2816 bytes in index, 21120 bytes in prototypes.
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #176 asked for but non-existant! (Object: the teleporter - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #195 asked for but non-existant! (Object: a stayalive bracelet - 65535)
-Apr 19 13:35:16 2020 :: SYSERR: Trigger vnum #180 asked for but non-existant! (Object: a pair of iron shackles - 65535)
-Apr 19 13:35:16 2020 :: Renumbering zone table.
-Apr 19 13:35:16 2020 :: SYSERR: zone file: Invalid vnum 1228, cmd disabled
-Apr 19 13:35:16 2020 :: SYSERR: ...offending cmd: 'R' cmd in zone #0, line 14
-Apr 19 13:35:16 2020 :: SYSERR: zone file: Invalid vnum 1228, cmd disabled
-Apr 19 13:35:16 2020 :: SYSERR: ...offending cmd: 'O' cmd in zone #0, line 15
-Apr 19 13:35:16 2020 :: Loading shops.
-Apr 19 13:35:16 2020 :: Loading quests.
-Apr 19 13:35:16 2020 :: Loading help entries.
-Apr 19 13:35:16 2020 ::    2652 entries, 84864 bytes.
-Apr 19 13:35:16 2020 :: Generating player index.
-Apr 19 13:35:16 2020 :: Loading fight messages.
-Apr 19 13:35:16 2020 :: Loaded 37 Combat Messages...
-Apr 19 13:35:16 2020 :: Loading social messages.
-Apr 19 13:35:16 2020 :: Social table contains 490 socials.
-Apr 19 13:35:16 2020 :: Building command list.
-Apr 19 13:35:16 2020 :: Command info rebuilt, 766 total commands.
-Apr 19 13:35:16 2020 :: Assigning function pointers:
-Apr 19 13:35:16 2020 ::    Mobiles.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3095
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #120
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #121
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #122
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #123
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2556
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2559
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2562
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2564
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2800
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3020
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3021
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3022
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3023
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5400
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5401
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5402
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5403
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #11518
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25720
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25721
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25722
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25723
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25726
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25732
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27572
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27573
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27574
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27575
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27721
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #29204
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #29227
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31601
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31603
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31605
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31607
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31609
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31611
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31639
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31641
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3105
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #110
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #1201
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3010
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #10412
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #10719
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25710
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27164
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #30128
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31510
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #1200
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3005
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5404
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27713
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27730
-Apr 19 13:35:16 2020 ::    Shopkeepers.
-Apr 19 13:35:16 2020 ::    Objects.
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1226
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1227
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1228
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3096
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3097
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3098
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3099
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #115
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #334
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #336
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3034
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3036
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3907
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #10640
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #10751
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant obj #25758
-Apr 19 13:35:16 2020 ::    Rooms.
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #3031
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #10738
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #23281
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #25722
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #27155
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #27616
-Apr 19 13:35:16 2020 :: SYSERR: Attempt to assign spec to non-existant room #31523
-Apr 19 13:35:16 2020 ::    Questmasters.
-Apr 19 13:35:16 2020 :: Assigning spell and skill levels.
-Apr 19 13:35:16 2020 :: Sorting command list and spells.
-Apr 19 13:35:16 2020 :: Booting mail system.
-Apr 19 13:35:16 2020 ::    Mail file read -- 0 messages.
-Apr 19 13:35:16 2020 :: Reading banned site and invalid-name list.
-Apr 19 13:35:16 2020 :: Loading Ideas.
-Apr 19 13:35:16 2020 :: Loading Bugs.
-Apr 19 13:35:16 2020 :: Loading Typos.
-Apr 19 13:35:16 2020 :: Booting houses.
-Apr 19 13:35:16 2020 ::    No houses to load. File 'etc/hcontrol' does not exist.
-Apr 19 13:35:16 2020 :: Cleaning up last log.
-Apr 19 13:35:16 2020 :: Resetting #0: The Builder Academy Zone (rooms 0-99).
-Apr 19 13:35:16 2020 :: Boot db -- DONE.
-Apr 19 13:35:16 2020 :: Signal trapping.
-Apr 19 13:35:16 2020 :: Entering game loop.
-Apr 19 13:35:16 2020 :: No connections.  Going to sleep.
-Apr 19 13:35:23 2020 :: New connection.  Waking up.
-Apr 19 13:35:29 2020 :: Klank has connected.
-Apr 19 13:35:31 2020 :: Klank un-renting and entering game.
-Apr 19 13:35:31 2020 :: Klank (level 34) has 0 objects (max 30).
-Apr 19 13:35:51 2020 :: Klank has quit the game.
-Apr 19 13:35:52 2020 :: Losing player: Klank.
-Apr 19 13:35:52 2020 :: No connections.  Going to sleep.
-Apr 19 13:36:04 2020 :: New connection.  Waking up.
-Apr 19 13:36:09 2020 :: Klank has connected.
-Apr 19 13:36:11 2020 :: Klank un-renting and entering game.
-Apr 19 13:36:11 2020 :: Klank (level 34) has 0 objects (max 30).
-Apr 19 13:40:34 2020 :: nusage: 1   sockets connected, 1   sockets playing
-Apr 19 13:43:11 2020 :: Klank has quit the game.
-Apr 19 13:43:13 2020 :: Losing player: Klank.
-Apr 19 13:43:13 2020 :: No connections.  Going to sleep.
-Apr 19 13:43:25 2020 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...
-Quick boot mode -- rent check supressed.
-Using file descriptor for logging.
+Apr 26 21:35:19 2020 :: Loading configuration.
+Apr 26 21:35:19 2020 :: tbaMUD 2020
+Apr 26 21:35:19 2020 :: Using lib as data directory.
+Apr 26 21:35:19 2020 :: Running game on port 4000.
+Apr 26 21:35:19 2020 :: Finding player limit.
+Apr 26 21:35:19 2020 ::    Setting player limit to 300 using rlimit.
+Apr 26 21:35:19 2020 :: Opening mother connection.
+Apr 26 21:35:19 2020 :: Binding to all IP interfaces on this host.
+Apr 26 21:35:19 2020 :: Boot db -- BEGIN.
+Apr 26 21:35:19 2020 :: Resetting the game time:
+Apr 26 21:35:19 2020 ::    Current Gametime: 23H 15D 16M 874Y.
+Apr 26 21:35:19 2020 :: Initialize Global Lists
+Apr 26 21:35:19 2020 :: Initializing Events
+Apr 26 21:35:19 2020 :: Reading news, credits, help, ihelp, bground, info & motds.
+Apr 26 21:35:19 2020 :: Loading spell definitions.
+Apr 26 21:35:19 2020 :: Loading zone table.
+Apr 26 21:35:19 2020 ::    2 zones, 144 bytes.
+Apr 26 21:35:19 2020 :: Loading triggers and generating index.
+Apr 26 21:35:19 2020 :: Loading rooms.
+Apr 26 21:35:19 2020 ::    42 rooms, 7728 bytes.
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #1200 asked for but non-existant! (room:0)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #199 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #189 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #170 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #171 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #172 asked for but non-existant! (room:65535)
+Apr 26 21:35:19 2020 :: Converting room #100 to 128bits..
+Apr 26 21:35:19 2020 ::    done.
+Apr 26 21:35:19 2020 :: Renumbering rooms.
+Apr 26 21:35:19 2020 :: Checking start rooms.
+Apr 26 21:35:19 2020 :: Loading mobs and generating index.
+Apr 26 21:35:19 2020 ::    38 mobs, 1216 bytes in index, 21888 bytes in prototypes.
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #138 asked for but non-existant! (mob: the questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #139 asked for but non-existant! (mob: the questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #143 asked for but non-existant! (mob: the questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #144 asked for but non-existant! (mob: a quest mob - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #196 asked for but non-existant! (mob: Socrates - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #194 asked for but non-existant! (mob: Socrates - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #183 asked for but non-existant! (mob: Socrates - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #198 asked for but non-existant! (mob: Plato - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #184 asked for but non-existant! (mob: Plato - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #197 asked for but non-existant! (mob: Aristotle - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #185 asked for but non-existant! (mob: Aristotle - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #186 asked for but non-existant! (mob: Confucius - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #192 asked for but non-existant! (mob: the variable questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #191 asked for but non-existant! (mob: the variable questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #190 asked for but non-existant! (mob: the variable questmaster - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #188 asked for but non-existant! (mob: the protector of the magic eight ball - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #187 asked for but non-existant! (mob: James Stockdale - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #182 asked for but non-existant! (mob: Carl Von Clausewitz - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #181 asked for but non-existant! (mob: Epictetus - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #174 asked for but non-existant! (mob: the spy for the underground - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #173 asked for but non-existant! (mob: the Commissar - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #178 asked for but non-existant! (mob: Homer Simpson - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: dg_read_trigger: Trigger vnum #175 asked for but non-existant! (mob: Chuck Norris - 65535)
+Apr 26 21:35:19 2020 :: Loading objs and generating index.
+Apr 26 21:35:19 2020 ::    88 objs, 2816 bytes in index, 21120 bytes in prototypes.
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest token - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #169 asked for but non-existant! (Object: a quest token - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #140 asked for but non-existant! (Object: a quest timer - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: a quest timer - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #142 asked for but non-existant! (Object: a quest timer - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #141 asked for but non-existant! (Object: the head of the quest mob - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #168 asked for but non-existant! (Object: a questpoint setter - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #176 asked for but non-existant! (Object: the teleporter - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #195 asked for but non-existant! (Object: a stayalive bracelet - 65535)
+Apr 26 21:35:19 2020 :: SYSERR: Trigger vnum #180 asked for but non-existant! (Object: a pair of iron shackles - 65535)
+Apr 26 21:35:19 2020 :: Renumbering zone table.
+Apr 26 21:35:19 2020 :: SYSERR: zone file: Invalid vnum 1228, cmd disabled
+Apr 26 21:35:19 2020 :: SYSERR: ...offending cmd: 'R' cmd in zone #0, line 14
+Apr 26 21:35:19 2020 :: SYSERR: zone file: Invalid vnum 1228, cmd disabled
+Apr 26 21:35:19 2020 :: SYSERR: ...offending cmd: 'O' cmd in zone #0, line 15
+Apr 26 21:35:19 2020 :: Saving 128bit world files to disk.
+Apr 26 21:35:19 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:35:19 2020 :: Loading shops.
+Apr 26 21:35:19 2020 :: Loading quests.
+Apr 26 21:35:19 2020 :: Loading help entries.
+Apr 26 21:35:19 2020 ::    2652 entries, 84864 bytes.
+Apr 26 21:35:19 2020 :: Generating player index.
+Apr 26 21:35:19 2020 :: Loading fight messages.
+Apr 26 21:35:19 2020 :: Loaded 37 Combat Messages...
+Apr 26 21:35:19 2020 :: Loading social messages.
+Apr 26 21:35:19 2020 :: Social table contains 490 socials.
+Apr 26 21:35:19 2020 :: Building command list.
+Apr 26 21:35:19 2020 :: Command info rebuilt, 766 total commands.
+Apr 26 21:35:19 2020 :: Assigning function pointers:
+Apr 26 21:35:19 2020 ::    Mobiles.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: assign_kings_castle(): can't find mob #65535.
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3095
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #120
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #121
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #122
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #123
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2556
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2559
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2562
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2564
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #2800
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3020
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3021
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3022
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3023
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5400
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5401
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5402
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5403
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #11518
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25720
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25721
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25722
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25723
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25726
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25732
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27572
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27573
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27574
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27575
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27721
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #29204
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #29227
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31601
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31603
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31605
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31607
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31609
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31611
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31639
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31641
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3105
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #110
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #1201
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3010
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #10412
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #10719
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #25710
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27164
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #30128
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #31510
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #1200
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #3005
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #5404
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27713
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant mob #27730
+Apr 26 21:35:19 2020 ::    Shopkeepers.
+Apr 26 21:35:19 2020 ::    Objects.
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1226
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1227
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #1228
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3096
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3097
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3098
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3099
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #115
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #334
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #336
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3034
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3036
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #3907
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #10640
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #10751
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant obj #25758
+Apr 26 21:35:19 2020 ::    Rooms.
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #3031
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #10738
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #23281
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #25722
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #27155
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #27616
+Apr 26 21:35:19 2020 :: SYSERR: Attempt to assign spec to non-existant room #31523
+Apr 26 21:35:19 2020 ::    Questmasters.
+Apr 26 21:35:19 2020 :: Assigning spell and skill levels.
+Apr 26 21:35:19 2020 :: Sorting command list and spells.
+Apr 26 21:35:19 2020 :: Booting mail system.
+Apr 26 21:35:19 2020 ::    Mail file read -- 0 messages.
+Apr 26 21:35:19 2020 :: Reading banned site and invalid-name list.
+Apr 26 21:35:19 2020 :: Loading Ideas.
+Apr 26 21:35:19 2020 :: Loading Bugs.
+Apr 26 21:35:19 2020 :: Loading Typos.
+Apr 26 21:35:19 2020 :: Booting houses.
+Apr 26 21:35:19 2020 ::    No houses to load. File 'etc/hcontrol' does not exist.
+Apr 26 21:35:19 2020 :: Cleaning up last log.
+Apr 26 21:35:19 2020 :: Resetting #0: The Builder Academy Zone (rooms 0-99).
+Apr 26 21:35:19 2020 :: Resetting #1: New Zone (rooms 100-199).
+Apr 26 21:35:19 2020 :: Boot db -- DONE.
+Apr 26 21:35:19 2020 :: Signal trapping.
+Apr 26 21:35:19 2020 :: Entering game loop.
+Apr 26 21:35:19 2020 :: No connections.  Going to sleep.
+Apr 26 21:36:40 2020 :: New connection.  Waking up.
+Apr 26 21:36:45 2020 :: Klank has connected.
+Apr 26 21:36:48 2020 :: Klank retrieving crash-saved items and entering game.
+Apr 26 21:36:48 2020 :: Klank (level 34) has 1 object (max 30).
+Apr 26 21:36:53 2020 :: OLC: Klank starts editing zone 0 allowed zone 0
+Apr 26 21:36:56 2020 :: OLC: Klank stops editing zone 0 allowed zone 0
+Apr 26 21:37:08 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:38:03 2020 :: OLC: Klank edits zone info for room 100.
+Apr 26 21:38:03 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:38:09 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:38:10 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:38:32 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:39:02 2020 :: GenOLC: add_room: Updated existing room #100.
+Apr 26 21:39:02 2020 :: OLC: Klank edits room 100.
+Apr 26 21:39:02 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:39:02 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:40:01 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:41:11 2020 :: GenOLC: add_room: Added room 101 at index #41.
+Apr 26 21:41:11 2020 :: OLC: Klank edits room 101.
+Apr 26 21:41:11 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:41:11 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:41:14 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:41:40 2020 :: nusage: 1   sockets connected, 1   sockets playing
+Apr 26 21:42:13 2020 :: GenOLC: add_room: Updated existing room #100.
+Apr 26 21:42:13 2020 :: OLC: Klank edits room 100.
+Apr 26 21:42:13 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:42:13 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:42:15 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:42:38 2020 :: GenOLC: add_room: Updated existing room #101.
+Apr 26 21:42:38 2020 :: OLC: Klank edits room 101.
+Apr 26 21:42:38 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:42:38 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:42:57 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:43:15 2020 :: GenOLC: add_room: Updated existing room #100.
+Apr 26 21:43:15 2020 :: OLC: Klank edits room 100.
+Apr 26 21:43:15 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:43:15 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:43:20 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+Apr 26 21:44:04 2020 :: GenOLC: add_room: Updated existing room #100.
+Apr 26 21:44:04 2020 :: OLC: Klank edits room 100.
+Apr 26 21:44:04 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+Apr 26 21:44:04 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+Apr 26 21:44:33 2020 :: Klank has quit the game.
+Apr 26 21:44:35 2020 :: Losing player: Klank.
+Apr 26 21:44:35 2020 :: No connections.  Going to sleep.

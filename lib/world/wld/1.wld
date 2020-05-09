@@ -1,6 +1,8 @@
 #100
 Corner of 30th and 169th Ave~
 30th St. runs north and south while 169th runs only east.
+
+169th dead ends into a large, pine forest.
 ~
 1 0 0 0 0 1
 D1
@@ -8,6 +10,10 @@ D1
 ~
 ~
 0 0 101
+D3
+~
+~
+0 0 102
 S
 #101
 3004 169th Ave~
@@ -20,5 +26,37 @@ Corner of 30th and 169th.
 ~
 ~
 0 0 100
+S
+#102
+Edge of a pine forest~
+Large pines, 50-80 years old tower above you at the edge of the forest. 
+Deeper into the forest you can see even larger trees and murky shapes. 
+~
+1 0 0 0 0 3
+D1
+~
+~
+0 0 100
+D2
+~
+~
+0 0 104
+S
+#103
+At the door of 3004~
+You are in an unfinished room.
+A wooden porch leads up to the entrance of 3004 169th Ave. It's a aged drab green, several years beyond needing a new coat of paint. A string is suspended across the porch with 4, 6" plastic skeletons suspended from nooses attached to the string.
+~
+1 0 0 0 0 1
+S
+#104
+Down a forest ravine~
+There is a worn path that descends steeply towards the south, further into the forest.
+~
+1 0 0 0 0 3
+D0
+~
+~
+0 0 102
 S
 $~

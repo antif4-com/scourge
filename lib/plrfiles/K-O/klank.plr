@@ -7,7 +7,7 @@ Levl: 34
 Id  : 1
 Brth: 1586582844
 Plyd: 590
-Last: 1587962203
+Last: 1589056688
 Lmot: 1587518312
 Lnew: 1587518314
 Host: klank.hsd1.wa.comcast.net
@@ -16,7 +16,7 @@ Wate: 129
 Act : 0 0 0 0
 Aff : 0 0 0 0
 Pref: efghnoqrvABCDEF b 0 0
-Room: 100
+Room: 65535
 Hit : 550/500
 Mana: 100/100
 Move: 82/82

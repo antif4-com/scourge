@@ -838,3 +838,443 @@ May 09 14:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
 May 09 15:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
 May 09 15:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
 May 09 15:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 15:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 16:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 17:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:22:29 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 18:22:40 2020 :: GenOLC: add_room: Updated existing room #101.
+May 09 18:22:40 2020 :: OLC: Klank edits room 101.
+May 09 18:22:40 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+May 09 18:22:40 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 18:22:58 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 18:23:09 2020 :: GenOLC: add_room: Updated existing room #103.
+May 09 18:23:09 2020 :: OLC: Klank edits room 103.
+May 09 18:23:09 2020 :: GenOLC: save_rooms: Saving rooms in zone #1 (100-199).
+May 09 18:23:09 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 18:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 18:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 19:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 20:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:43:00 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:45:18 2020 :: OLC: Klank edits obj 100
+May 09 21:45:18 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:45:26 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:46:26 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:46:51 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:47:17 2020 :: OLC: Klank edits zone info for room 100.
+May 09 21:47:17 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:47:43 2020 :: (GC) Klank reset zone 1 (Gongtown)
+May 09 21:47:57 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:49:02 2020 :: OLC: Klank edits obj 100
+May 09 21:49:02 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:49:13 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:49:17 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:49:19 2020 :: (GC) Klank purged zone 1 (Gongtown)
+May 09 21:49:21 2020 :: (GC) Klank reset zone 1 (Gongtown)
+May 09 21:49:42 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 09 21:51:16 2020 :: OLC: Klank edits obj 100
+May 09 21:51:16 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 09 21:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 21:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 22:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 09 23:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 00:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 01:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 02:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 03:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 04:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 05:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 06:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 07:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 08:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 09:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 10:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 11:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 12:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 13:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 14:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 15:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 16:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 17:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 18:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 19:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:06:14 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:06:20 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:06:47 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:07:09 2020 :: OLC: Klank edits obj 100
+May 10 20:07:09 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:07:30 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:07:44 2020 :: OLC: Klank edits obj 100
+May 10 20:07:44 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:08:38 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:09:12 2020 :: OLC: Klank edits obj 100
+May 10 20:09:12 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:10:40 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:11:51 2020 :: GenOLC: add_mobile: Added mobile 100 at index #38.
+May 10 20:11:51 2020 :: OLC: Klank edits mob 100
+May 10 20:11:51 2020 :: GenOLC: 'world/mob/1.mob' saved, 165 bytes written.
+May 10 20:11:51 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:12:01 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:12:19 2020 :: OLC: Klank edits zone info for room 103.
+May 10 20:12:19 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:12:25 2020 :: (GC) Klank reset zone 1 (Gongtown)
+May 10 20:12:34 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:12:48 2020 :: GenOLC: add_mobile: Updated existing mobile #100.
+May 10 20:12:48 2020 :: OLC: Klank edits mob 100
+May 10 20:12:48 2020 :: GenOLC: 'world/mob/1.mob' saved, 163 bytes written.
+May 10 20:12:48 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:34:01 2020 :: (GC) Klank reset zone 1 (Gongtown)
+May 10 20:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:48:48 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:49:31 2020 :: GenOLC: add_mobile: Added mobile 101 at index #39.
+May 10 20:49:31 2020 :: OLC: Klank edits mob 101
+May 10 20:49:31 2020 :: GenOLC: 'world/mob/1.mob' saved, 328 bytes written.
+May 10 20:49:31 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:49:33 2020 :: OLC: Klank starts editing zone 1 allowed zone 0
+May 10 20:49:42 2020 :: OLC: Klank edits zone info for room 104.
+May 10 20:49:42 2020 :: OLC: Klank stops editing zone 1 allowed zone 0
+May 10 20:49:49 2020 :: (GC) Klank reset zone 1 (Gongtown)
+May 10 20:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 20:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:16:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:21:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:26:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:31:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:36:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:41:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:46:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:51:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 21:56:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 22:01:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 22:06:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+May 10 22:11:21 2020 :: nusage: 1   sockets connected, 1   sockets playing
+SYSERR: perform_socket_read: about to lose connection: Operation timed out
+May 10 22:11:45 2020 :: cres: cp error - at comm.c:1935
+May 10 22:11:45 2020 :: Closing link to: Klank.
+May 10 22:11:45 2020 :: No connections.  Going to sleep.

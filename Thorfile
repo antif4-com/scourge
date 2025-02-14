@@ -28,6 +28,12 @@ module Scourge
     def readme
       puts "I'll get to it later. Sorry."
     end
+
+    desc "prep", "(dev) Prep scourge to push to mainline"
+    def prep
+      # TODO: copy over latest scrgcfg.yml -> scrgcfg_example.yml. However, need to worry about keys.
+      # so not doing it now. But leaving this todo so I think about it.
+    end
   end
 end
 

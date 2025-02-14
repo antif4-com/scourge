@@ -1,6 +1,6 @@
 
 
-class Scourge < Thor
+class Commands < Thor
 
   desc "install IP_ADDR", "boostrap server @ IP_ADDR"
   def install(ip_addr)

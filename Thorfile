@@ -7,7 +7,7 @@ module Scourge
 
   # TODO: There is probably a better way to do this, but I can't figure out how to
   # get config to be available across the entire module otherwise.
-  @config = YAML.load_file('scourgeconfig.yaml')
+  @config = YAML.load_file('scrgcfg.yaml')
 
   def self.config
     @config

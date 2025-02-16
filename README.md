@@ -1,17 +1,17 @@
-**scourge** 
-
-The sysops framework used by antif4.com 
+# **scourge** 
 
 Command line tools for the creation and management of: 
 * VPS instances
 * software installations/updates
 * basic administrative tasks
 
+Think Thor + cPanel,  but cooler. 
+
 Early days.
 
 How scourge sees the world: 
 
-* scourge only cares about hosts, servers, and software.
+* scourge cares about hosts, servers, and software.
 * Hosts produce servers. Servers run software. 
 * A host is anything that can run Ubuntu and provide an ssh connection. 
 * Software is anything that can be installed and managed via ssh.
@@ -25,11 +25,14 @@ All three entities can be:
   * status
   * deep
 
-
 Principles:
 * State-less.
-  * Where required, config is only local txt files. 
-  * 
+  * Where required, config is only local txt files or what can be regenerated using ruby.
+* Federation via established standards or die.
+  * No centralization or vendor-specific wonder "app in a box".  
+* Heterogeneous compute layer
+  * scourge should be fully operational across a diverse and constantly changing hosting/server configuration
+  * the software is what is important, everything underneath can change constantly
 
 Hero workflow (starting from _as minimum as possible_):
   * copy keys/config from backup (not scourge's responsibility)

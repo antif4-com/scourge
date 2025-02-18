@@ -6,7 +6,6 @@ module Scourge
 
     desc "list hosts", "list active hosts"
     def list
-      puts Scourge.config
       apikey = Scourge.config['hosts']['keys']['digitalocean']['apikey']
       client = DropletKit::Client.new(access_token: apikey)
 
@@ -15,4 +14,4 @@ module Scourge
       end
     end
   end
-endServices.stop
+end

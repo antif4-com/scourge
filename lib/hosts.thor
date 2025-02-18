@@ -15,4 +15,4 @@ module Scourge
       end
     end
   end
-end
+endServices.stop

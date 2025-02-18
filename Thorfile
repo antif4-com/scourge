@@ -5,22 +5,18 @@ require 'yaml'
 # Load all our thor files
 module Scourge
 
-  # TODO: There is probably a better way to do this, but I can't figure out how to
-  # get config to be available across the entire module otherwise.
-
   class Key
-    @key = "undefined"
+    @key = "<undefined>"
 
     def initialize(key_to_set)
       @key = key_to_set
     end
 
-    def to_yaml_type
-      "!Scourge/Key"
-    end
     def key
       @key
     end
+
+
     def to_s
       @key.to_s
     end
@@ -56,6 +52,34 @@ module Scourge
     end
   end
 
+  # used to clean a hash of keys, or other sensitive information before creating
+  # a template
+  def self.clean_tree(the_hash)
+
+    new_hash = {}
+    # TODO: there must be a better way to do this?
+    # ec - and to be clear, by "this" I mean both the method in which I'm cleaning
+    # the config yaml (by creating a Key type that filters itself out) as well
+    # as the way in which I am searching through this Hash to find all the Key
+    # elements. I wanted a "deep" copy and select but it doesn't appear to exist?
+    the_hash.each do |k, v|
+
+      val = v
+
+      if v.is_a? Key
+        val = Key.new("<insert_key_here>")
+      end
+
+      if v.is_a? Hash
+        val = clean_tree(v)
+      end
+
+      new_hash[k] = val
+    end
+
+    new_hash
+  end
+
   class Sys < Thor
     desc "readme", "Describes scourge's overall philosophy"
     def readme
@@ -66,6 +90,15 @@ module Scourge
     def prep
       # TODO: copy over latest scrgcfg.yml -> scrgcfg_example.yml. However, need to worry about keys.
       # so not doing it now. But leaving this todo so I think about it.
+
+      config_template = Scourge.config.clone
+
+      #zap everything that shouldn't escape
+      clean_template = Scourge.clean_tree(config_template)
+
+      File.open('scrgcfg_example.yaml', 'w') do | file|
+        YAML.dump(clean_template, file)
+      end
     end
 
     desc "flush", "(dev) Flush the scourge config"

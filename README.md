@@ -39,4 +39,15 @@ Hero workflow (starting from _as minimum as possible_):
   * gem install scourge
   * scourge:sys:restore
 
-And I do mean minimum. Minimal local config. A few text files, ssh, ruby, and access to gems. Then bam, you can get your whole system back up to prior state. 
+And I do mean minimum. Minimal local config. A few text files, ssh, ruby, and access to gems. Then bam, you can get your whole system back up to prior state.
+
+
+Current state I'm building towards: 
+
+* tty-based GUI over
+* Thor-based commands
+* to manage
+  * Host objects
+  * Server objects
+  * Software objects
+* via a Manifold object

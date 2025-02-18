@@ -1,4 +1,6 @@
+---
 hosts:
   keys:
     digitalocean:
-      apikey: "insert your API key here"
+      apikey: !ruby/object:Thor::Sandbox::Scourge::Key
+        key: "<insert_key_here>"

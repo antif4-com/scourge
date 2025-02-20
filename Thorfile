@@ -82,6 +82,28 @@ module Scourge
     new_hash
   end
 
+
+  def self.print_table_columns(data, columns)
+    a = []
+    row = []
+
+    columns.each do |column|
+      row << column.to_s
+    end
+
+    a << row
+
+    data.each do |record|
+      row = []
+      columns.each do |column|
+        row << record.send(column.to_s)
+      end
+      a << row
+    end
+
+    a
+  end
+
   class Sys < Thor
     desc "readme", "Describes scourge's overall philosophy"
     def readme

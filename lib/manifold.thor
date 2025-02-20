@@ -5,36 +5,18 @@ module Scourge
 
   class Manifold < Thor
 
-    def initialize
+    name = "unnamed manifold"
 
-      # either load the manifold from config or save a
-      # blank one (the starting use case)
-      if(Scourge.config[:manifold].is_a? Manifold)
-        Scourge.manifold = Scourge.config[:manifold]
-      else
-        Scourge.config[:manifold] = Scourge.manifold
-      end
-
-      super
-    end
+    hosts = {}
+    servers = {}
+    installed_software = {}
 
     desc "print","display the manifold"
     def print
-      puts Scourge.manifold
+      puts "--< #{name} >--"
+      hosts.each do |name, host|
+
+      end
     end
   end
-
-
-  @mfld = Manifold.new
-
-  def manifold
-    @mfld
-  end
-
-  def manifold=(value)
-    @mfld = value
-  end
-
-
-
 end

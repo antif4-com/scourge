@@ -52,6 +52,8 @@ module Scourge
     end
   end
 
+
+
   # used to clean a hash of keys, or other sensitive information before creating
   # a template
   def self.clean_tree(the_hash)
@@ -105,13 +107,14 @@ module Scourge
     def flush
       Scourge.save_config
     end
+
+    desc "play", "(dev) DO NOT CALL - it's a playground"
+    def play
+
+    end
   end
 end
 
 #finally, load all of our sub features, doing this last to ensure everything is
 # fully defined within the Scourge module from the perspective of sub features.
 Scourge.load_thorfiles('lib')
-
-
-
-

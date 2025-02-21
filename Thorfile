@@ -42,13 +42,16 @@ module Scourge
     end
   end
 
-  # used to load all our sub features
+  # used to load all our sub features, do it in two passes so we can make sure there is a defined base
+  # before loading all sceondary functionality
   def self.load_thorfiles(dir)
     Dir.chdir(dir) do
-      thor_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
-      thor_files.each do |f|
-        Thor::Util.load_thorfile(f)
-      end
+      first_pass_files = Dir.glob('*.thor').delete_if { |x| not File.file?(x) }
+      second_pass_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
+      second_pass_files = second_pass_files - first_pass_files
+
+      first_pass_files.each do |f| Thor::Util.load_thorfile(f) end
+      second_pass_files.each do |f| Thor::Util.load_thorfile(f) end
     end
   end
 

@@ -2,27 +2,33 @@
 require 'droplet_kit'
 
 module Scourge
-
   @available_hosts = {}
-  def self.hosts
+  def self.available_hosts
     @available_hosts
   end
 
-  class ScourgeHost < Thor
+  class ServerFactory < Thor
+
+    attr_accessor :name
+
     no_commands do
 
-      def register_host (host)
+      def self.register_host (host)
+        @name = host
         Scourge.available_hosts[host] = self
+      end
+
+      def list_servers
+        puts "<implement me>"
+      end
+
+      def create_server
+        puts "<implement me>"
       end
     end
   end
 
-  def self.load_hostfiles(dir)
-    Dir.chdir(dir) do
-      thor_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
-      thor_files.each do |f|
-        Thor::Util.load_thorfile(f)
-      end
-    end
+  class Server
+    attr_reader :name
   end
 end

@@ -2,16 +2,33 @@
 require 'droplet_kit'
 
 module Scourge
-  class Hosts < Thor
+  @available_hosts = {}
+  def self.available_hosts
+    @available_hosts
+  end
 
-    desc "list hosts", "list active hosts"
-    def list
-      apikey = Scourge.config['hosts']['keys']['digitalocean']['apikey']
-      client = DropletKit::Client.new(access_token: apikey)
+  class ServerFactory < Thor
 
-      client.droplets.all().each do |droplet|
-       puts droplet.name
+    attr_accessor :name
+
+    no_commands do
+
+      def self.register_host (host)
+        @name = host
+        Scourge.available_hosts[host] = self
+      end
+
+      def list_servers
+        puts "<implement me>"
+      end
+
+      def create_server
+        puts "<implement me>"
       end
     end
+  end
+
+  class Server
+    attr_reader :name
   end
 end

@@ -42,15 +42,20 @@ module Scourge
     end
   end
 
-  # used to load all our sub features
+  # used to load all our sub features, do it in two passes so we can make sure there is a defined base
+  # before loading all sceondary functionality
   def self.load_thorfiles(dir)
     Dir.chdir(dir) do
-      thor_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
-      thor_files.each do |f|
-        Thor::Util.load_thorfile(f)
-      end
+      first_pass_files = Dir.glob('*.thor').delete_if { |x| not File.file?(x) }
+      second_pass_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
+      second_pass_files = second_pass_files - first_pass_files
+
+      first_pass_files.each do |f| Thor::Util.load_thorfile(f) end
+      second_pass_files.each do |f| Thor::Util.load_thorfile(f) end
     end
   end
+
+
 
   # used to clean a hash of keys, or other sensitive information before creating
   # a template
@@ -80,6 +85,28 @@ module Scourge
     new_hash
   end
 
+
+  def self.print_table_columns(data, columns)
+    a = []
+    row = []
+
+    columns.each do |column|
+      row << column.to_s
+    end
+
+    a << row
+
+    data.each do |record|
+      row = []
+      columns.each do |column|
+        row << record.send(column.to_s)
+      end
+      a << row
+    end
+
+    a
+  end
+
   class Sys < Thor
     desc "readme", "Describes scourge's overall philosophy"
     def readme
@@ -105,13 +132,14 @@ module Scourge
     def flush
       Scourge.save_config
     end
+
+    desc "play", "(dev) DO NOT CALL - it's a playground"
+    def play
+
+    end
   end
 end
 
 #finally, load all of our sub features, doing this last to ensure everything is
 # fully defined within the Scourge module from the perspective of sub features.
 Scourge.load_thorfiles('lib')
-
-
-
-

@@ -8,3 +8,5 @@ gem "thor"
 gem "net-ssh"
 gem "droplet_kit"
 gem "ostruct"
+
+gem "rspec"

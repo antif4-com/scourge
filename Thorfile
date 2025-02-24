@@ -52,8 +52,8 @@ module Scourge
       second_pass_files = Dir.glob('**/*.thor').delete_if { |x| not File.file?(x) }
       second_pass_files = second_pass_files - first_pass_files
 
-      first_pass_files.each do |f| puts "first pass - #{f}"
-      second_pass_files.each do |f| puts "second pass - #{f}"
+      first_pass_files.each do |f| puts "first pass - #{f}" end
+      second_pass_files.each do |f| puts "second pass - #{f}" end
 
       first_pass_files.each do |f| Thor::Util.load_thorfile(f) end
       second_pass_files.each do |f| Thor::Util.load_thorfile(f) end

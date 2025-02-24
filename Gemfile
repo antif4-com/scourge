@@ -10,3 +10,4 @@ gem "droplet_kit"
 gem "ostruct"
 
 gem "rspec"
+gem 'rr', require: false

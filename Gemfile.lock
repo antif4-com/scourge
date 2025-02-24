@@ -39,6 +39,7 @@ GEM
     public_suffix (6.0.1)
     resource_kit (0.1.8)
       addressable (>= 2.3.6, < 3.0.0)
+    rr (3.1.1)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -68,6 +69,7 @@ DEPENDENCIES
   droplet_kit
   net-ssh
   ostruct
+  rr
   rspec
   thor
 

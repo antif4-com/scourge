@@ -1,7 +1,14 @@
 $TESTING = true
 
 require "rspec"
+require "rr"
+
 require "thor"
+
+# configure rspec
+ RSpec.configure do |config|
+   config.mock_with :rr
+end
 
 # this needs to be loaded via Thor so that it can live in the sandbox
 Thor::Util.load_thorfile"Thorfile"

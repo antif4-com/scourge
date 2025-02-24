@@ -4,7 +4,7 @@ require 'yaml'
 
 # Load all our thor files
 module Scourge
-
+  puts "Directory - #{Dir.pwd}"
   class Key
     @key = "<undefined>"
 

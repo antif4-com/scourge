@@ -57,7 +57,8 @@ scourge believes it can eat the world through flexibility and managing the world
 
 ### Architecture
 
-Hehe, kind of? 
+![source_highlevel](https://github.com/user-attachments/assets/e3a21c4b-4d95-4829-8476-ac2d02cc7b4e)
+Hehe, kind of? This is currently what's in my head. I wouldn't even say the full skeleton is in the code yet. 
 
 * tty-based GUI/CLI over
 * Thor-based commands

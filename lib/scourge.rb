@@ -20,24 +20,49 @@ module Scourge
   # then, when it's loaded, scourge will wrap it in a Key class, and it'll be protected
   # properly from then on
   YAML.add_domain_type("", "KEY") do |_, data|
-    puts "WARNING: found a key, wrapping it"
+    #puts "WARNING: found a key, wrapping it"
     Key.new(data)
   end
-  # for now, the main initialization method that ensures all the internal configuration
-  # state is loaded (config, manifolds, etc.)
-  def self.initialize_scourge
-    @config = YAML.safe_load_file('scrgcfg.yaml', permitted_classes: [Key])
-  end
-
 
   def self.config
     @config
   end
 
-  def self.save_config
-    File.open('scrgcfg.yaml', 'w') do | file|
+  def self.sys_config
+    @sys_config
+  end
+
+  def self.save_config(file=nil)
+    #if we have a new filename passed in, save it for future usage
+    sys_config[:config_name] = file unless file.nil?
+
+
+    file = sys_config[:config_name]
+    File.open(file, 'w') do | file|
       YAML.dump(@config, file)
     end
+  end
+
+  # saving and loading configs
+  def self.load_config(file)
+    @config = YAML.safe_load_file(file, permitted_classes: [Key])
+  end
+
+  def self.load_sys_config(file)
+    @config['scourge_sys'] = {} unless @config['scourge_sys']
+    @sys_config = @config['scourge_sys']
+    @sys_config[:config_name] = file
+  end
+
+
+  # for now, the main initialization method that ensures all the internal configuration
+  # state is loaded (config, manifolds, etc.)
+  def self.initialize_scourge(file=nil)
+    file = 'scrgcfg.yaml' if file.nil?
+
+    load_config(file)
+
+    load_sys_config(file)
   end
 
   # used to load all our sub features, do it in two passes so we can make sure there is a defined base

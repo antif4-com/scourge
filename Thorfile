@@ -3,7 +3,7 @@ Thor::Util.load_thorfile"lib/scourge.rb"
 
 # Load all our thor files
 module Scourge
-
+  puts "Directory - #{Dir.pwd}"
   initialize_scourge
 
   class Sys < Thor

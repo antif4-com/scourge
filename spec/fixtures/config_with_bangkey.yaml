@@ -1,0 +1,6 @@
+---
+hosts:
+  keys:
+    test_host:
+      apikey: !KEY
+        key: <super secret key, better wrap it up>

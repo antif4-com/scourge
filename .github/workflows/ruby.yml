@@ -35,6 +35,6 @@ jobs:
     - name: Set up scourge
       run: cp scrgcfg_example.yaml scrgcfg.yaml
     - name: because I can
-      run: ls -l 
+      run: ls -l lib
     - name: Run tests
       run: bundle exec thor scourge:sys:spec

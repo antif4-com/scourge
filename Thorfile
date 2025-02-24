@@ -33,5 +33,10 @@ module Scourge
     def play
       Scourge.config
     end
+
+    desc "spec", "Run RSpec code examples"
+    def spec
+      exec "bundle exec rspec spec"
+    end
   end
 end

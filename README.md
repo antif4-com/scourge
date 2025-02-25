@@ -21,7 +21,7 @@ I have a lot of motivations for this approach. Unlike platforms like k8s, scourg
 
 This centralized control, primarily in the hands of large US corporations, is not good for you, and it's not good for me. To try and combat this, scourge will provide high-enough levels of resiliency across simple network topologies. 
 
-If I want to wax poetic and shoot for the stars, I want scourge to make managing a simple network topology feel as simple, yet powerful as Ruby on Rails did for web dev. The tool selection and overall architecture is heavily inspired from Ruby/Rails. I'm not saying I have done a good job or anything, just so you know where I'm coming from and where I'm going.   
+If I want to wax poetic and shoot for the stars, I want scourge to make managing a simple network topology feel as simple, yet powerful as Ruby on Rails did for web dev. The tool selection and overall architecture is heavily inspired from Ruby/Rails and scourge plays an Ansible-like role. 
 
 ### What is a simple network topology?
 

@@ -1,0 +1,8 @@
+---
+hosts:
+  keys:
+    digitalocean:
+      apikey: !ruby/object:Thor::Sandbox::Scourge::Key
+        key: abc_v3_0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+scourge_sys:
+  :config_name: spec/fixtures/base_config.yaml

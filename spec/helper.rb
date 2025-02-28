@@ -31,5 +31,6 @@ FIXTURES = {
   TEST_KEY: "<THIS_IS_A_TEST_KEY>",
   BASE_CONFIG: make_fixture('base_config.yaml'),
   BANG_KEY_CONFIG: make_fixture('config_with_bangkey.yaml'),
-  WRITE_TEST: make_fixture('test_write.yaml')
+  WRITE_TEST: make_fixture('test_write.yaml'),
+  THOR_FILE: make_fixture('simple.thor'),
 }

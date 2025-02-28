@@ -1,19 +1,19 @@
 require "helper"
 
 describe Scourge do
+  let(:base_config_scourge) do
+    Scourge.initialize_scourge(FIXTURES[:BASE_CONFIG])
+  end
+
+  let(:bang_key_config_scourge) do
+    Scourge.initialize_scourge(FIXTURES[:BANG_KEY_CONFIG])
+  end
+
+  let(:saved_config_scourge) do
+    Scourge.initialize_scourge(FIXTURES[:WRITE_TEST])
+  end
+
   context "config" do
-    let(:base_config_scourge) do
-      Scourge.initialize_scourge(FIXTURES[:BASE_CONFIG])
-    end
-
-    let(:bang_key_config_scourge) do
-      Scourge.initialize_scourge(FIXTURES[:BANG_KEY_CONFIG])
-    end
-
-    let(:saved_config_scourge) do
-      Scourge.initialize_scourge(FIXTURES[:WRITE_TEST])
-    end
-
     it "has a config" do
       expect(Scourge.config)
     end
@@ -85,6 +85,44 @@ describe Scourge do
 
       expect(Scourge.sys_config[:config_name]).to eq(FIXTURES[:BANG_KEY_CONFIG])
     end
+  end
+
+  context "utils" do
+
+    it "can load .thor files" do
+      base_config_scourge
+
+      Scourge.load_thorfiles(make_fixture('./'))
+
+      expect(Scourge.config[:pingpong]).to be(true)
+    end
+
+    it "can clean a Hash" do
+      base_config_scourge
+
+      secret_key = "<super_secret>"
+
+      dirty_hash = {not_a_key: 42, key: Scourge::Key.new(secret_key)}
+
+      clean_hash = Scourge.clean_tree(dirty_hash)
+
+      expect(clean_hash[:key].key).to_not be(secret_key)
+    end
+
+    # need to update once add_columns_to_table no longer has host specific functionality
+    xit "can add columns to a table" do
+      base_config_scourge
+
+      data = [
+        [27, "blue"],
+        [28, "green"]
+      ]
+
+      data = Scourge.add_columns_to_table([:age, :favorite_color], data)
+
+      expect(data[0]).to eq("age")
+    end
+
   end
 end
 

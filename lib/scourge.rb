@@ -112,7 +112,7 @@ module Scourge
   end
 
 
-  def self.print_table_columns(data, columns)
+  def self.add_columns_to_table(columns, table)
     a = []
     row = []
 
@@ -122,7 +122,7 @@ module Scourge
 
     a << row
 
-    data.each do |record|
+    table.each do |record|
       row = []
       columns.each do |column|
         row << record.send(column.to_s)

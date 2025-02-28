@@ -45,7 +45,7 @@ module Scourge
 
     desc "list_hosts","list all hosts in manifold"
     def list_hosts
-      print_table(Scourge.print_table_columns(@hosts, [:id, :name]))
+      print_table Scourge.add_columns_to_table( [:id, :name],@hosts)
     end
   end
 end

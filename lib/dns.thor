@@ -12,7 +12,7 @@ module Scourge
 
       records = client.domain_records.all(for_domain: domain)
 
-      print_table(Scourge.print_table_columns(records,[:type, :name, :data]))
+      print_table Scourge.add_columns_to_table([:type, :name, :data],records)
 
       # res = client.domain_records.update(trouble_entry, for_domain: domain, id: trouble_entry.id)
       #

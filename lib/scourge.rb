@@ -1,6 +1,9 @@
 require 'yaml'
 require 'thor'
 
+SCOURGE_DEFAULTS = {
+  config_name: "scrgcfg.yaml"
+}
 module Scourge
 
   class Key
@@ -45,7 +48,7 @@ module Scourge
 
   # saving and loading configs
   def self.load_config(file)
-    @config = YAML.safe_load_file(file, permitted_classes: [Key])
+    @config = YAML.safe_load_file(file, permitted_classes: [Symbol, Key])
   end
 
   def self.load_sys_config(file)
@@ -58,7 +61,7 @@ module Scourge
   # for now, the main initialization method that ensures all the internal configuration
   # state is loaded (config, manifolds, etc.)
   def self.initialize_scourge(file=nil)
-    file = 'scrgcfg.yaml' if file.nil?
+    file = SCOURGE_DEFAULTS[:config_name] if file.nil?
 
     load_config(file)
 
@@ -109,7 +112,7 @@ module Scourge
   end
 
 
-  def self.print_table_columns(data, columns)
+  def self.add_columns_to_table(columns, table)
     a = []
     row = []
 
@@ -119,7 +122,7 @@ module Scourge
 
     a << row
 
-    data.each do |record|
+    table.each do |record|
       row = []
       columns.each do |column|
         row << record.send(column.to_s)

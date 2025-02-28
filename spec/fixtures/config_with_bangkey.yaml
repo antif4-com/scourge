@@ -2,5 +2,13 @@
 hosts:
   keys:
     test_host:
-      apikey: !KEY
-        key: <super secret key, better wrap it up>
+      apikey: !ruby/object:Thor::Sandbox::Scourge::Key
+        key:
+          key: "<super secret key, better wrap it up>"
+scourge_sys:
+  :config_name: spec/fixtures/config_with_bangkey.yaml
+a_random_number: 42
+:a_random_string: Forty-two
+a random object:
+  :thething: !ruby/object:Thor::Sandbox::Scourge::Key
+    key: abc
